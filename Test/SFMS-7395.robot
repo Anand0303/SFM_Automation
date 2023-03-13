@@ -28,7 +28,7 @@ Expose additional fields to the eCommerce Integration Permission Set
     ClickText                 eCommerce Integration
     ClickText                 Object Settings
     ClickText                 Accounts                  anchor=Account Taxes 
-    ClickText                 Edit
+    ClickText                 Edit                      partial_match=False                      
    
     ScrollTo                  Field Permissions 
     ScrollTo                  Address 
