@@ -11,3 +11,15 @@ Create rules for prevent contacts duplication
     LaunchApp                 Contacts
     ClickText                 New
     ComboBox                  Search Accounts...                CSQ2C Test Account
+    PickList                  Salutation                        Mr.
+    TypeText                  First Name                        Anand
+    TypeText                  *Last Name                        Balapure
+    VerifyText                *Job Title 
+    TypeText                  *Job Title                        Test Lead
+    
+    
+    
+    VerifyText                Similar Records Exist                
+    ClickText                 Similar Records Exist
+    Sleep                     5s
+    ClickText                 Save                              partial_match=False
