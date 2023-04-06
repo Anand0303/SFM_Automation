@@ -14,23 +14,16 @@ Create rules for prevent contacts duplication
     PickList                  Salutation                        Mr.
     TypeText                  First Name                        Anand
     TypeText                  *Last Name                        Balapure
-    TypeText                  Department                        Test\n                        
+    ClickText                  Department                        Test\n
+    
+    SetConfig          ShadowDOM                             True
+    VerifyItem         Similar Records Exist
+    ${approver}=       Set Variable                       This record looks like an existing record. Make sure to check any potential duplicate records before saving.
+    VerifyText         //div[@class\='container']//div[2]//div[text()\='${approver}']
+
+
     VerifyText                *Job Title 
     TypeText                  *Job Title                        Test Lead\n
     
-    
-
-    
-    
-    
-    SetConfig                 ShadowDOM                             True
-    VerifyItem                Similar Records Exist
-    ${approver}=              Set Variable                       This record looks like an existing record. Make sure to check any potential duplicate records before saving.
-    VerifyText                //div[@class\='container']//div[2]//div[text()\='${approver}']
-    
-    
-    
-    VerifyText                Similar Records Exist                
-    ClickText                 Similar Records Exist
     Sleep                     5s
     ClickText                 Save                              partial_match=False
