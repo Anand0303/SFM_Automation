@@ -14,8 +14,14 @@ Create rules for prevent contacts duplication
     PickList                  Salutation                        Mr.
     TypeText                  First Name                        Anand
     TypeText                  *Last Name                        Balapure
+    TypeText                  Department                        Test\n                        
     VerifyText                *Job Title 
-    TypeText                  *Job Title                        Test Lead
+    TypeText                  *Job Title                        Test Lead\n
+    
+    
+
+    
+    
     
     SetConfig                 ShadowDOM                             True
     VerifyItem                Similar Records Exist
