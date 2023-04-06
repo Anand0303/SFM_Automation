@@ -17,6 +17,11 @@ Create rules for prevent contacts duplication
     VerifyText                *Job Title 
     TypeText                  *Job Title                        Test Lead
     
+    SetConfig                 ShadowDOM                             True
+    VerifyItem                Similar Records Exist
+    ${approver}=              Set Variable                       This record looks like an existing record. Make sure to check any potential duplicate records before saving.
+    VerifyText                //div[@class\='container']//div[2]//div[text()\='${approver}']
+    
     
     
     VerifyText                Similar Records Exist                
