@@ -10,5 +10,17 @@ Q2C Cancellation, CRM agreement not created due to exceeding 255 characters
     [tags]                    Contracts
     Appstate                  Home
     LaunchApp                 Contracts
-    TypeText                  Search Contracts and more...    00000118
+    ClickText                 00000118
+    ClickText                 Contract Action
     
+    
+    
+
+    DropDown    *Contract Action    Cancel Renewal
+    DropDown    *Contract Action Reason    Content Quality
+    
+    
+    DropDown    *Renewal Cancellation Type    Renewal Cancelled after Notice Period Deadline
+    TypeText    *Contract Action Justification    askjhaskjdhjadkjhasdkjhqoiwdqwhdjkhasfukfjhlwfeiukjhfdilufEKjsdfgfkjgJKSFLgkjgfilufekjgaFuilgfkjgAJKFgefuigaksjfgEFIUgkfjasgkajgfkDFkjdgfkJDFiuwefkjgasjkfgkjdfuiwekjgafiugWEIUFgkasgfaksjfgiuewfasfAfdf
+    DropDown    Closed Category                   Lost To Unknown Competitor
+    ClickText    Lost to Competitive Product
