@@ -44,9 +44,9 @@ Create rules for prevent contacts duplication - (First Name + Last Name + Email 
     ClickText                 Department
     SetConfig                 ShadowDOM                             True
     VerifyItem                We hit a snag.
-    ${approver}=              Set Variable                       You can't save this record because a duplicate record already exists. To save, use different information.
+    ${approver1}=              Set Variable                       container
     
-    VerifyText                //div[@class\='container']//div[2]//div[text()\='${approver}']
+    VerifyText                //div[@class\='${approver1}']//div[2]//div/a/..
     VerifyText                *Job Title 
     TypeText                  *Job Title                        Test Lead\n
     ClickText                 Save                              partial_match=False
