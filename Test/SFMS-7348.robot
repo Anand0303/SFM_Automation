@@ -10,3 +10,5 @@ Q2C Cancellation, CRM agreement not created due to exceeding 255 characters
     [tags]                    Contracts
     Appstate                  Home
     LaunchApp                 Contracts
+    TypeText                  Search Contracts and more...    00000118
+    
