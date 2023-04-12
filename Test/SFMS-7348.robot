@@ -6,3 +6,7 @@ Suite Setup                   Setup Browser
 Suite Teardown                End suite
 *** Test Cases ***
 Q2C Cancellation, CRM agreement not created due to exceeding 255 characters
+
+    [tags]                    Contracts
+    Appstate                  Home
+    LaunchApp                 Contracts
