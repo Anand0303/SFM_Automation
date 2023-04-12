@@ -21,6 +21,8 @@ Q2C Cancellation, CRM agreement not created due to exceeding 255 characters
     
     
     DropDown    *Renewal Cancellation Type    Renewal Cancelled after Notice Period Deadline
-    TypeText    *Contract Action Justification    askjhaskjdhjadkjhasdkjhqoiwdqwhdjkhasfukfjhlwfeiukjhfdilufEKjsdfgfkjgJKSFLgkjgfilufekjgaFuilgfkjgAJKFgefuigaksjfgEFIUgkfjasgkajgfkDFkjdgfkJDFiuwefkjgasjkfgkjdfuiwekjgafiugWEIUFgkasgfaksjfgiuewfasfAfdf
+    TypeText    *Contract Action Justification    askjhaeqeterqt qetqerteqrt qetertr qwetqretret qweterqtqertqre qewtqertqret qweqetqetre skjdhjadkjhasdkjhqoiwdqwhdjkhasfukfjhlwfeiukjhfdilufEKjsdfgfkjgJKSFLgkjgfilufekjgaFuilgfkjgAJKFgefuigaksjfgEFIUgkfjasgkajgfkDFkjdgfkJDFiuwefkjgasjkfgkjdfuiwekjgafiugWEIUF
+                                                   
     DropDown    Closed Category                   Lost To Unknown Competitor
-    ClickText    Lost to Competitive Product
+    ClickText    Next
+    VerifyText                        Contract Action Justification should not exceed 255 characters
