@@ -8,15 +8,19 @@ Suite Teardown                End suite
 End Date validation required on Quote
     [tags]                    Opportunities
     Appstate                  Home
-    ${user}=                  Set Variable                      Erin Shore
-    Login As                  ${user}
+    #${user}=                  Set Variable                      Erin Shore
+    #Login As                  ${user}
     LaunchApp                 Quotes
     
     
     
-
-    ClickText    Search...    anchor=Elsevier
+    ClickText                 Search...
+    
+    ClickText    Search Quotes and more...    Q-12790
     TypeText    Search...    Q-12790
+    
+    
+
     ClickText    Quote
 
 
