@@ -26,3 +26,15 @@ Creating Opportunity from Account
     MultiPickList             Level 3 Product                   CK Japan
     ClickText                 Move selection to Chosen          anchor=Available
     ClickText                 Save                              partial_match=False   
+
+Create New Quote from Opportunity
+    ClickText                 New Quote
+    ComboBox                  Primary Contact                  Dnyaneshwar Jalamkar
+    ComboBox                  Legal Entity                        Elsevier Inc.
+    PickList                  Region                        A
+    PickList                  CK Account Type               Hospital
+    clicktext                 Save
+    VerifyText                Dnyaneshwar Jalamkar
+    ClickText                 Edit Lines                       Anchor=Submit For Approval    delay=2
+    SetConfig                 ShadowDOM    True                        
+    ClickText                 Save    parent=SB-DIALOG                        delay=10
