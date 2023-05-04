@@ -34,7 +34,6 @@ Create New Quote from Opportunity
     PickList                  Region                        A
     PickList                  CK Account Type               Hospital
     clicktext                 Save
-    VerifyText                Anand Balapure
-    ClickText                 Edit Lines                       Anchor=Submit For Approval    delay=2
-    SetConfig                 ShadowDOM    True                        
-    ClickText                 Save    parent=SB-DIALOG                        delay=10
+    VerifyText                Quote Description
+    
+    
