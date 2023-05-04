@@ -8,7 +8,7 @@ Suite Teardown                End suite
 Creating Opportunity from Account
     [tags]                    Opportunities
     Appstate                  Home
-    ${user}=                  Set Variable                      Katie Gerhard
+    ${user}=                  Set Variable                      Erin Shore
     Login As                  ${user}
     LaunchApp                 Opportunities
     ClickText                 New
