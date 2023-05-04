@@ -21,9 +21,9 @@ Creating Opportunity from Account
     PickList                  *Stage                            Needs Analysis                 
     ClickText                 *Expected Close Date
     ClickText                 Today
-    Picklist                  Level 1 Product                   Reference
-    Picklist                  Level 2 Product                   CK Physician
-    MultiPickList             Level 3 Product                   CK Japan
+    Picklist                  Level 1 Product                   Performance Solutions
+    Picklist                  Level 2 Product                   Mosbys Nursing Skills
+    #MultiPickList             Level 3 Product                   CK Japan
     ClickText                 Move selection to Chosen          anchor=Available
     ClickText                 Save                              partial_match=False   
 
